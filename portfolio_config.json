@@ -1,0 +1,185 @@
+{
+  "portfolio_name": "HBM, Hyperscalers & AI Infrastructure Universe",
+  "base_currency": "USD",
+  "drawdown_method": "daily_close_usd",
+  "min_market_cap_usd_bn": 150,
+  "segments": [
+    {
+      "id": "HBM Memory",
+      "label": "HBM Memory & Packaging",
+      "description": "High-Bandwidth Memory manufacturers and advanced 2.5D/3D HBM packaging & TSV equipment leaders"
+    },
+    {
+      "id": "Hyperscalers",
+      "label": "Hyperscalers & Cloud",
+      "description": "Cloud titans and AI hyperscalers deploying massive HBM-powered GPU/ASIC clusters"
+    },
+    {
+      "id": "AI Semis & Infra",
+      "label": "AI Semis & Infrastructure",
+      "description": "AI accelerators, custom ASICs, foundry, lithography, and data center networking/power"
+    }
+  ],
+  "holdings": [
+    {
+      "ticker": "000660.KS",
+      "display_symbol": "000660",
+      "name": "SK Hynix Inc",
+      "segment": "HBM Memory",
+      "sub_role": "HBM3E / HBM4 Market Leader",
+      "is_core": true
+    },
+    {
+      "ticker": "005930.KS",
+      "display_symbol": "005930",
+      "name": "Samsung Electronics Co Ltd",
+      "segment": "HBM Memory",
+      "sub_role": "HBM Memory & Foundry",
+      "is_core": true
+    },
+    {
+      "ticker": "MU",
+      "display_symbol": "MU",
+      "name": "Micron Technology Inc",
+      "segment": "HBM Memory",
+      "sub_role": "HBM3E / DRAM Manufacturer",
+      "is_core": true
+    },
+    {
+      "ticker": "ORCL",
+      "display_symbol": "ORCL",
+      "name": "Oracle Corp",
+      "segment": "Hyperscalers",
+      "sub_role": "OCI AI Cloud Clusters",
+      "is_core": true
+    },
+    {
+      "ticker": "AVGO",
+      "display_symbol": "AVGO",
+      "name": "Broadcom Inc",
+      "segment": "AI Semis & Infra",
+      "sub_role": "Custom AI XPUs & Networking",
+      "is_core": true
+    },
+    {
+      "ticker": "META",
+      "display_symbol": "META",
+      "name": "Meta Platforms Inc",
+      "segment": "Hyperscalers",
+      "sub_role": "Llama AI & Hyperscale Infra",
+      "is_core": true
+    },
+    {
+      "ticker": "GOOGL",
+      "display_symbol": "GOOGL",
+      "name": "Alphabet Inc Class A",
+      "segment": "Hyperscalers",
+      "sub_role": "Google Cloud & TPU Hyperscaler",
+      "is_core": true
+    },
+    {
+      "ticker": "NVDA",
+      "display_symbol": "NVDA",
+      "name": "NVIDIA Corp",
+      "segment": "AI Semis & Infra",
+      "sub_role": "Blackwell / Rubin AI GPUs",
+      "is_core": true
+    },
+    {
+      "ticker": "AMZN",
+      "display_symbol": "AMZN",
+      "name": "Amazon.com Inc",
+      "segment": "Hyperscalers",
+      "sub_role": "AWS & Trainium/Inferentia",
+      "is_core": true
+    },
+    {
+      "ticker": "MSFT",
+      "display_symbol": "MSFT",
+      "name": "Microsoft Corp",
+      "segment": "Hyperscalers",
+      "sub_role": "Azure AI & Maia Accelerators",
+      "is_core": true
+    },
+    {
+      "ticker": "TSM",
+      "display_symbol": "TSM",
+      "name": "Taiwan Semiconductor (TSMC)",
+      "segment": "AI Semis & Infra",
+      "sub_role": "Leading Foundry & CoWoS HBM Packaging",
+      "is_core": false
+    },
+    {
+      "ticker": "AMD",
+      "display_symbol": "AMD",
+      "name": "Advanced Micro Devices Inc",
+      "segment": "AI Semis & Infra",
+      "sub_role": "Instinct MI300/MI350 AI GPUs",
+      "is_core": false
+    },
+    {
+      "ticker": "INTC",
+      "display_symbol": "INTC",
+      "name": "Intel Corp",
+      "segment": "AI Semis & Infra",
+      "sub_role": "x86 CPUs, Gaudi & 18A Foundry",
+      "is_core": false
+    },
+    {
+      "ticker": "ARM",
+      "display_symbol": "ARM",
+      "name": "Arm Holdings plc",
+      "segment": "AI Semis & Infra",
+      "sub_role": "Data Center CPU Architecture",
+      "is_core": false
+    },
+    {
+      "ticker": "ASML",
+      "display_symbol": "ASML",
+      "name": "ASML Holding NV",
+      "segment": "AI Semis & Infra",
+      "sub_role": "EUV Lithography for Logic & DRAM/HBM",
+      "is_core": false
+    },
+    {
+      "ticker": "ANET",
+      "display_symbol": "ANET",
+      "name": "Arista Networks Inc",
+      "segment": "AI Semis & Infra",
+      "sub_role": "High-Speed AI Ethernet Switching",
+      "is_core": false
+    },
+    {
+      "ticker": "DELL",
+      "display_symbol": "DELL",
+      "name": "Dell Technologies Inc",
+      "segment": "AI Semis & Infra",
+      "sub_role": "Enterprise AI Rack Servers",
+      "is_core": false
+    },
+    {
+      "ticker": "LRCX",
+      "display_symbol": "LRCX",
+      "name": "Lam Research Corp",
+      "segment": "HBM Memory",
+      "sub_role": "TSV Etch & Deposition for 3D HBM Stacking",
+      "is_core": false
+    },
+    {
+      "ticker": "AAPL",
+      "display_symbol": "AAPL",
+      "name": "Apple Inc",
+      "segment": "Hyperscalers",
+      "sub_role": "Apple Intelligence & Private Cloud Compute",
+      "is_core": false
+    },
+    {
+      "ticker": "BABA",
+      "display_symbol": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "segment": "Hyperscalers",
+      "sub_role": "Alibaba Cloud & Qwen AI",
+      "is_core": false
+    }
+  ]
+}
